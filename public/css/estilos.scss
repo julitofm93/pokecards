@@ -52,18 +52,18 @@ h1{
         display: flex;
         flex-direction: column;
         align-items: center;
-        border-bottom: 1px solid var(--dark-grayish-blue);
+        border-bottom: 1px solid var(--dark-gray);
 
         &-img {
-            border: 5px solid white;
-            border-radius: 50%;
-            margin-top: calc(-48px - 5px);
-            background-color: white;
+            width: 200px;
+            height: 200px;
+            margin-top: calc(-100px - 5px);
         }
 
         &-title{
             margin-top: 2rem;
             font-size: 2rem;
+            text-transform: capitalize;
 
             span{
                 color: var(--dark-gray);
